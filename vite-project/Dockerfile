@@ -9,6 +9,6 @@ COPY . .
 
 RUN npm run build
 
-EXPOSE 4173
+EXPOSE 8001
 
 CMD ["npm", "run", "preview", "--", "--host"]
